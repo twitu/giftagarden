@@ -39,10 +39,10 @@ section::before {
 }
 .logo {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .logo img {
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
     border-radius: 10px;
 }
@@ -74,7 +74,7 @@ img {
     background: #FFFACD;
     padding: 15px;
     border-left: 5px solid #FFD700;
-    margin: 10px 0;
+    margin: 15px 0;
     transform: rotate(-1deg); /* Subtle tilt only for the yellow personal note boxes */
     box-shadow: 
         3px 3px 8px rgba(0,0,0,0.2),
@@ -225,7 +225,7 @@ footer {
         max-width: 150px;
     }
     .logo img {
-        max-width: 180px;
+        max-width: 250px;
     }
     .reel-embed iframe {
         width: 100%;
