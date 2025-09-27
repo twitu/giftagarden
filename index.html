@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gift A Garden - Plant Boutique</title>
     <link rel="icon" type="image/png" href="logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/comic-neue-regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/indie-flower.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="logo.png" as="image">
+    <link rel="preload" href="background-tile.png" as="image">
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -56,28 +60,28 @@
             <div class="products-grid">
                 <div class="product-item tilted">
                     <a href="https://wa.me/p/10022754754417709/919330542087" target="_blank">
-                        <img src="globe-planter.jpeg" alt="Globe Planter">
+                        <img src="globe-planter.jpeg" alt="Globe Planter" loading="lazy">
                     </a>
                     <h3>Globe Planter - ₹500</h3>
                     <p>Elegant spherical planter perfect for modern spaces.</p>
                 </div>
                 <div class="product-item tilted">
                     <a href="https://wa.me/p/30881381278142017/919330542087" target="_blank">
-                        <img src="packaging.jpeg" alt="Gift Packaging">
+                        <img src="packaging.jpeg" alt="Gift Packaging" loading="lazy">
                     </a>
                     <h3>Premium Gift Set - ₹350</h3>
                     <p>Beautifully packaged plant gifts ready for special occasions.</p>
                 </div>
                 <div class="product-item tilted">
                     <a href="https://wa.me/p/9938938239485950/919330542087" target="_blank">
-                        <img src="pumpkin.jpeg" alt="Zen Garden">
+                        <img src="pumpkin.jpeg" alt="Zen Garden" loading="lazy">
                     </a>
                     <h3>Zen Garden - ₹750</h3>
                     <p>Peaceful zen garden for meditation and tranquility.</p>
                 </div>
                 <div class="product-item tilted">
                     <a href="https://wa.me/p/29490122413967089/919330542087" target="_blank">
-                        <img src="conch-plant.jpeg" alt="Conch Shell Planter">
+                        <img src="conch-plant.jpeg" alt="Conch Shell Planter" loading="lazy">
                     </a>
                     <h3>Conch Shell Planter - ₹950</h3>
                     <p>Unique nautical-themed planter with natural coastal charm.</p>
@@ -88,7 +92,7 @@
         <section id="about">
             <h2>About My Garden Adventures</h2>
             <p class="personal-note">It all started in my sunny backyard, where I discovered the magic of watching seeds turn into blooming wonders. Now, I share that magic through personalized plant gifts. Just me, my green thumbs, and a passion for making your gifts as unique as your relationships.</p>
-            <img src="https://via.placeholder.com/200x150/98FB98/006400?text=Backyard+Blooms" alt="Backyard Plants" class="tilted">
+            <img src="https://via.placeholder.com/200x150/98FB98/006400?text=Backyard+Blooms" alt="Backyard Plants" class="tilted" loading="lazy">
             <ul>
                 <li>Hand-grown succulents for easy care</li>
                 <li>Seasonal flowering plants for special occasions</li>
@@ -102,16 +106,16 @@
             
             <div class="map-container">
                 <a href="https://maps.app.goo.gl/48eUYQsTFgcJpu9s5" target="_blank">
-                    <img src="google-maps.png" alt="Gift A Garden Location on Google Maps" style="width: 100%; height: auto; border-radius: 10px; cursor: pointer;">
+                    <img src="google-maps.png" alt="Gift A Garden Location on Google Maps" style="width: 100%; height: auto; border-radius: 10px; cursor: pointer;" loading="lazy">
                 </a>
             </div>
             
             <div class="social-links">
                 <a href="https://instagram.com/gift_agarden" target="_blank" title="Instagram">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Logo">
+                    <img src="instagram-icon.svg" alt="Instagram Logo">
                 </a>
                 <a href="https://wa.me/c/919330542087" target="_blank" title="WhatsApp Catalog">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+                    <img src="whatsapp-icon.svg" alt="WhatsApp Logo">
                 </a>
             </div>
         </section>
