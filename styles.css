@@ -112,7 +112,7 @@ li {
     border-radius: 8px;
 }
 .product-item img {
-    max-width: 150px;
+    max-width: 350px;
 }
 .social-links {
     display: flex;
@@ -222,7 +222,10 @@ footer {
         max-width: 300px;
     }
     img {
-        max-width: 150px;
+        max-width: 200px;
+    }
+    .product-item img {
+        max-width: 280px;
     }
     .logo img {
         max-width: 250px;
