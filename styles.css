@@ -121,6 +121,51 @@ li {
     object-fit: cover;
     aspect-ratio: 1;
 }
+.product-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.whatsapp-overlay {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+        0 2px 8px rgba(37, 211, 102, 0.4),
+        0 0 0 3px #ffffff;
+    z-index: 2;
+}
+.product-item.tilted .whatsapp-overlay {
+    transform: rotate(-3deg);
+}
+.product-item.tilted:nth-child(even) .whatsapp-overlay {
+    transform: rotate(2deg);
+}
+.whatsapp-overlay img {
+    width: 22px;
+    height: 22px;
+    max-width: unset;
+    border: none;
+    box-shadow: none;
+    aspect-ratio: unset;
+    filter: none;
+    border-radius: 0;
+    object-fit: unset;
+}
+.tap-hint {
+    font-size: 0.9em;
+    color: #25D366;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    font-style: italic;
+}
 .social-links {
     display: flex;
     justify-content: center;
@@ -240,6 +285,19 @@ footer {
             0 6px 12px rgba(0,0,0,0.1);
         object-fit: cover;
         aspect-ratio: 1;
+    }
+    .whatsapp-overlay {
+        width: 30px;
+        height: 30px;
+        bottom: 16px;
+        right: 16px;
+    }
+    .whatsapp-overlay img {
+        width: 18px;
+        height: 18px;
+    }
+    .tap-hint {
+        font-size: 0.8em;
     }
     .logo img {
         max-width: 250px;
